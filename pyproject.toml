@@ -1,0 +1,18 @@
+[project]
+name = "rag-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google_generativeai",
+    "langchain",
+    "langchain-core",
+    "langchain-community",
+    "langchain-google-genai",
+    "streamlit",
+    "python-dotenv",
+    "faiss-cpu",
+    "PyPDF2",
+
+]
